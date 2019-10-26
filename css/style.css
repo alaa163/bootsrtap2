@@ -1,0 +1,379 @@
+body{
+
+}
+#home{
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    height: 650px;
+    background-position: center center;
+}
+#home .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(196, 45, 50, 0.68);
+    text-align: center;
+    animation-name: icon;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+#home .overlay .iconee{
+    color:white;
+    }
+@keyfarmes icon{
+        0%{ padding-top:0px};
+        100%{
+            padding-top:30px;
+    }}
+#home .overlay .navbar{
+    height:90px;
+}
+#home .overlay .navbar .navbar-brand img{
+    padding-left: 
+
+}
+#home .overlay .navbar .navbar-brand span{
+    padding-left: 20px;
+    color:white;
+}
+#home .overlay .navbar ul li{
+    padding: 0px 20px;
+}
+#home .overlay .navbar ul li a{
+    color:white;
+    transition: 1s;
+}
+#home .overlay .navbar ul li a:hover{
+    color:red;
+}
+#home .overlay .content-all .container {
+    padding-top: 5rem;
+}
+#home .overlay .content-all .container .content-home{
+    padding-top: 10rem;
+}
+#home .overlay .content-all .container h2{
+    color:white;
+    font-size: 50px;
+    font-weight: 700;
+}
+#home .overlay .content-all .container p{
+    font-size: 25px;
+    color:white;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+#home .overlay .content-all .container button{
+    background-color: transparent;
+    color:white;
+    border:1px solid white;
+    padding: 10px 20px;
+    transition: 1s;
+}
+#home .overlay .content-all .container button:hover{
+    background-color: white;
+    color: #ec3237;
+}
+#about .container .head1{
+    padding-top: 4rem;
+    font-weight: 700;
+    color:#444444;
+}
+#about .container .text1{
+    color:gray;
+    padding-bottom: 3rem;
+    font-size: 18px;
+}
+#about .container .text2{
+    color:gray;
+    line-height: 30px;
+    font-size: 18px;
+}
+#about .container .icons {
+    overflow: auto;
+}
+#about .container .icons li {
+    display: inline-block;
+    padding: 15px;
+    border:1px solid gray;
+    margin: 7px;
+    transition: all 1s;
+}
+#about .container .icons li a{
+    color:gray;
+}
+#about .container .icons li:hover{
+    background-color: pink;
+
+}
+#about .container .icons li:hover a{
+    color:white;
+}
+#skills .progress{
+    border-radius: 4px;
+    height: 13px;
+}
+#skills .progress-bar{
+    background-color:#ec3237;
+    
+}
+#skills .head5{
+    color:gray;
+    font-size: 13px;
+    margin-bottom:-20px;
+    
+}
+#skills .progress1 .psd{
+    
+    text-align: right !important;
+    color:gray;
+
+}
+#skills .container .button{
+    padding: 4rem 0rem;
+}
+#skills .container .button button {
+    padding:10px 25px;
+    background-color: #ec3237;
+    color:white;
+    transition: all 1s;
+}
+#skills .container .button button:hover{
+    background-color: #c62d32;
+}
+#work {
+    background-color: whitesmoke;
+}
+#work .container .what {
+    padding-top: 4rem;
+    color: #444444;
+    font-weight: bold;
+
+}
+#work .container .lorem{
+    color:gray;
+    padding-bottom: 4rem;
+}
+#work .container .card{
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 15px;
+    transition: all 1s;
+}
+#work .container .card .icone {
+    width:30px;
+    height: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 5px 5px;
+    
+    
+}
+#work .container .card:hover .branding {
+    color:orangered;
+}
+#work .container .card .icone i{
+    color:gray;
+}
+#work .container .card:hover .icone{
+    background-color: orangered;
+    
+}
+#work .container .card:hover i{
+    color: white;
+}
+#work .container .card .branding{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444444;
+}
+#work .container .card .many{
+    color: gray;
+    font-size: 18px;
+}
+#work .container .button2 button{
+    padding: 10px 25px;
+    background-color: #ec3237;
+    color:white;
+    transition: all 1s;
+}
+#work .container .button2 button:hover{
+    background-color: #c62d32;
+}
+#num {
+    background-image: url(../images/project-counter.jpg);
+    background-position: center top;
+    background-size: cover;
+    
+
+}
+#num .container{
+    width: 90%;
+}
+#num .container .row .border1{
+    
+    padding: 15px 0px;
+    
+    
+
+    
+}
+#num .container .row .border1 .num1{
+    margin: 10px;
+    border: 1px solid gray;
+    padding: 10px 0px;
+}
+#num .container .row .border1 .num1 i{
+    padding-bottom: 30px;
+    color:orangered;
+}
+#num .container .row .border1 .num1 h3{
+    color:white;
+}
+#num .container .row .border1 .num1 p{
+    color:orangered;
+}
+#num .container .row{
+    padding: 4rem 2rem;
+    
+    
+}
+#portfilo{
+    background-color: whitesmoke;
+}
+#portfilo .nav a{
+    border: 2px solid gray;
+    margin: 3px;
+    color:gray;
+}
+#portfilo .nav a:hover{
+    border:2px solid red;
+    color:red;
+}
+#portfilo .contanier .row  .project{
+    background-color: white;
+}
+#portfilo .contanier ul .container{
+    text-align: center;
+    margin: auto;
+}
+#portfilo button{
+ padding: 10px 25px;
+    background-color:#ec3237 ;
+    color:white;
+}
+#portfilo button:hover{
+    background-color:#c62d32;
+
+}
+#portfilo .class1{
+    position: relative;
+}
+    
+}
+#portfilo .one i{
+    position: absolute;
+    top:10px;
+    left: 50%;
+    z-index: 2;
+}
+
+    
+#slider{
+    background-image: url(../images/client-testimonial.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+.carousel{
+    /*background-color: rgba(0,0,0,0.2);*/
+    width: 100%;
+    height: 100%;
+    
+  
+}
+.carousel .carousel-inner .carousel-item .carousel-caption{
+    padding-bottom: 8rem;
+}
+.carousel .carousel-caption img{
+    border: 6px solid red;
+    margin-bottom: 20px;
+} 
+.carousel .carousel-caption h2{
+    color:red;
+}
+#hire-me .container .hire{
+    padding-top: 4rem;
+    font-weight: bold;
+}
+#hire-me .container .dolor{
+    color:gray;
+    padding-bottom: 2rem;
+}
+#hire-me .container .row .info{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+#hire-me .container .row .why{
+    color:gray;
+    font-size: 18px;
+    padding-bottom: 1rem;
+    
+}
+
+#hire-me .container .row p .icon1,#hire-me .container .row p .icon2 ,#hire-me .container .row p .icon3{
+    padding-right: 15px;
+   
+}
+#hire-me .container .row p{
+    color:grey;
+}
+#hire-me .container .row p a{
+    color:#BF360C;
+    text-decoration: none;
+}
+#hire-me .container .row .ul .clicks li {
+    display: inline-block;
+
+    padding: 15px;
+    border:1px solid gray;
+    transition: all 1s;
+    text-align: left;
+    transition: all 1s;
+}
+#hire-me .container .row .ul .clicks li a{
+    text-decoration: none;
+    color:gray;
+}
+#hire-me .container .row .ul .clicks li:hover{
+    background-color: palevioletred;
+}
+#hire-me .container .row .ul .clicks li:hover i{
+    color:white;
+}
+#hire-me .container .form-control{
+    border:2px solid gray;
+}
+#hire-me .container .form-control placeholder{
+    color:gray;
+    padding-top:2rem;
+}
+#hire-me .container button{
+    background-color: #ec3237;
+    padding: 10px 25px;
+    color:white;
+}
+#hire-me .container button:hover{
+    background-color: #c62d32;
+}
+#hire-me .container .footer{
+    padding: 3rem 0rem;
+    color:gray;
+}
+#hire-me .container .footer .ww{
+    color:#BF360C;
+}
+#hire-me .container .footer a{
+    text-decoration: none;
+}
+      
